@@ -1,0 +1,30 @@
+#nav {
+	position: sticky;
+	top: 0;
+	z-index: 20;
+}
+
+.fa-bars {
+	color: #fff;
+}
+
+.navbar {
+	background-color: #171730;
+	&-brand {
+		color: #fff;
+	}
+
+	&-toggler-icon {
+		color: #fff;
+	}
+
+	ul {
+		margin-left: -50px;
+	}
+
+	ul li a {
+		color: #fff;
+		float: right;
+		text-align: left;
+	}
+}

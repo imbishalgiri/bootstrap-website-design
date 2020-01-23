@@ -1,0 +1,44 @@
+.owl-theme {
+	div{
+		img{
+			height:200px;
+		}
+	}
+}
+
+.owl-prev span, .owl-next span {
+	font-size: 50px;
+	font-weight: 500;
+	color: #171730;
+}
+// .owl-prev:hover, .owl-next:hover{
+// 	background: none;
+// }
+
+.owl-prev{
+	background: none;
+}
+
+.carousel__div {
+	position: relative;
+	transition: all 1s ease;
+}
+
+.img__overlay {
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	color: #fff;
+	opacity: 0;
+	transition: all .5s linear;
+}
+
+.carousel__div:hover .img__overlay {
+	opacity: 0.6;
+	cursor: pointer;
+}

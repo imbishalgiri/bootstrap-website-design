@@ -1,0 +1,11 @@
+// customizing Bootstrap here
+$theme-colors: (
+	"primary":black
+);
+
+// main bootstrap file here
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "navbar";
+@import "banner";
+@import "about";
+@import "carousel";

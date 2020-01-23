@@ -4,16 +4,21 @@
   "description": "this is a project to show off",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass-compiler": "node-sass css/scss/custom.scss css/style.css -w",
+    "compiler": "concurrently --kill-others\"npm run sass-compiler\"npm run live-server\"",
+    "dev": "start npm run sass-compiler && start live-server"
   },
   "author": "bishal giri",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
+    "live-server": "^1.2.1",
     "popper.js": "^1.16.0"
   },
   "devDependencies": {
+    "concurrently": "^5.0.2",
     "node-sass": "^4.13.1"
   }
 }

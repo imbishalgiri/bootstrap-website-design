@@ -2,62 +2,148 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<title>my website</title>
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
-	<div class="container">
-		<div class="heading-1">Hello!!  Is there bootstrap working??</div>
-		<nav class="navbar navbar-expand-lg navbar-dark my-5" style="background: #000;">
+  <!-- NAVBAR SECTION -->
+<section id="nav">
+  <nav class="navbar navbar-expand-lg">
+  <div class="container">
   <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+    </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        <a class="nav-link" href="#">LINK</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="#">IMAGINATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SAMANTHA</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+  </div>
   </div>
 </nav>
-	</div>
+</section>
+<!-- END OF NAVBAR SECTION -->
 
-<div class="jumbotron jumbotron-fluid text-center bg-dark text-white">
+<!-- START OF BANNER SECTION  -->
+<section class="banner">
+  <div class="container">
+    <div class="row banner__row">
+      <div class="col-md-6 banner__col-1 text-center">
+        <h3>This is so cool</h3>
+        <p>I am so excited right now man</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/person.png" alt="image of man" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="svg"><path fill-opacity="1" d="M0,96L60,117.3C120,139,240,181,360,208C480,235,600,245,720,224C840,203,960,149,1080,128C1200,107,1320,117,1380,122.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+<!-- END OF BANNER SECTION -->
 
-	<div class="display-4">
-		I am a freaking jumbotron
-	</div>
-	<hr class="bg-white w-50"> 
-	this is where things get exciting
-</div>
-
-
+<!-- ABOUT US SECTION -->
+ <div class="container container-fluid">
+   <h3 class="display-5 text-center">Our Teams</h3>
+   <div class="row">
+     <div class="col-md-12">
+        <div class="owl-carousel owl-theme">
+          <div class="carousel__div">
+            <img src="images/Aloo_Paratha1.jpg" alt="">
+            <div class="img__overlay text-center">
+              <div class="h4">samantha</div>
+            </div>
+          </div>
+          <div class="carousel__div">
+            <img src="images/black tea.jfif" alt="">
+            <div class="img__overlay text-center">
+              <div class="h4">angelina</div>
+            </div>
+            </div>
+          <div class="carousel__div">
+            <img src="images/boil-eggs.jpg" alt="">
+            <div class="img__overlay text-center">
+              <div class="h4">lisa</div>
+            </div>
+           </div>
+          <div class="carousel__div">
+            <img src="images/cel.jpg" alt="">
+            <div class="img__overlay text-center">
+              <div class="h4">lana</div>
+            </div>
+          </div>
+          <div class="carousel__div">
+            <img src="images/chiken khana.jpg" alt="">
+            <div class="img__overlay text-center">
+              <div class="h4">selena</div>
+            </div>
+           </div>
+          <div class="carousel__div">
+            <img src="images/Chicken-Chowmein.jpg" alt="">
+            <div class="img__overlay text-center">
+              <div class="h4">anton</div>
+            </div>
+           </div>
+          <div class="carousel__div">
+            <img src="images/Cold-drinks.jpg" alt="">
+            <div class="img__overlay text-center">
+              <div class="h4">james</div>
+            </div>
+           </div>
+        </div>
+     </div>
+   </div>
+ </div>
+<!-- END OF ABOUT US SECTION -->
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/popper.js/dist/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+  
+  $(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop:true,
+    margin:30,
+    nav:true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    dots:false,
+    smartSpeed:700,
+    navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        300:{
+            items:1
+        },
+        400:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+});
+</script>
 </body>
 </html>
